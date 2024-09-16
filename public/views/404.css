@@ -1,0 +1,45 @@
+/* style.css */
+
+/* Estilos básicos del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Contenedor principal del mensaje de error */
+#not-found {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Estilo para el título del error */
+#not-found h2 {
+    font-size: 2rem;
+    margin: 0 0 20px;
+    color: #e74c3c; /* Color rojo para el mensaje de error */
+}
+
+/* Estilo para el enlace */
+#not-found a {
+    color: #3498db; /* Color azul para el enlace */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#not-found a:hover {
+    text-decoration: underline;
+    color: #2980b9; /* Color azul más oscuro para el hover */
+}
